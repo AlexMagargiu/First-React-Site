@@ -7,6 +7,7 @@
 body {
     margin: 0;
     font-family: Inter, sans-serif;
+    background-color: #282D35;
 }
 
 .header{
@@ -35,4 +36,35 @@ body {
 .header > p{
     color: #DEEBF8;
     font-weight: 600;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 2rem;
+    color: #FFFFFF;
+    background-image: url(./images/react-logo-bg.png);
+    background-repeat: no-repeat;
+    background-position: 113% 100%;
+}
+
+.main > h1{
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.facts{
+    padding-left: 2rem;
+}
+
+.facts > li{
+    line-height: 19px;
+    padding-block: 10px;
+    max-width: 23%;
+}
+
+.facts > li::marker{
+    color: #61DAFB;
+    font-size: 1.4rem;
 }
