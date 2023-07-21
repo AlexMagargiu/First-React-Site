@@ -1,0 +1,38 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #21222A;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.left > img{
+    height: 50px;
+}
+
+.left > h1{
+    color: #61DAFB;
+    font-size: 22px;
+}
+
+.header > p{
+    color: #DEEBF8;
+    font-weight: 600;
+}
