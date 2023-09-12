@@ -5,12 +5,25 @@
 }
 
 body {
-    margin: 0;
     font-family: Inter, sans-serif;
+    background-color: #e5e5e5;
+}
+
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    border-radius: 16px;
     background-color: #282D35;
+    width: 40%;
 }
 
 .header{
+    border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,6 +51,10 @@ body {
     font-weight: 600;
 }
 
+br{
+    width: 100%;
+}
+
 .main{
     display: flex;
     flex-direction: column;
@@ -46,7 +63,7 @@ body {
     color: #FFFFFF;
     background-image: url(./images/react-logo-bg.png);
     background-repeat: no-repeat;
-    background-position: 113% 100%;
+    background-position: 155% 30%;
 }
 
 .main > h1{
@@ -54,17 +71,18 @@ body {
     letter-spacing: -0.05em;
 }
 
-.facts{
+.main--facts{
     padding-left: 2rem;
+    margin-bottom: 5rem;
 }
 
-.facts > li{
+.main--facts > li{
     line-height: 19px;
     padding-block: 10px;
-    max-width: 23%;
+    max-width: 60%;
 }
 
-.facts > li::marker{
+.main--facts > li::marker{
     color: #61DAFB;
     font-size: 1.4rem;
 }
